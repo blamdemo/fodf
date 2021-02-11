@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "lk"
+  description: "lk"
+  annotations:
+    github.com/project-slug: blamdemo/fodf
+    backstage.io/techdocs-ref: url:https://github.com/blamdemo/fodf
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "lk"
